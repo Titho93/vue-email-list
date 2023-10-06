@@ -18,9 +18,6 @@ createApp({
       }
     },
   },
-
-  created() {},
-
   mounted() {
     this.getApi();
   },
