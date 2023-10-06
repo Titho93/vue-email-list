@@ -14,7 +14,7 @@
 <body>
 
     <div id="app">
-        <h2>Email: {{email}}</h2>
+        <h2 v-for="(email, index) in emails" :key="index">Email: {{email}}</h2>
 
     </div>
 
